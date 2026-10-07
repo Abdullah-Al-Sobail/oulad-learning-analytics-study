@@ -1,0 +1,12 @@
+# Core pipeline (confirmed versions used for the analyses reported in the paper)
+python==3.12.3
+pandas==3.0.2
+numpy==2.4.4
+scikit-learn==1.8.0
+matplotlib==3.10.8
+# xgboost: version not pinned here -- run `pip show xgboost` in the environment
+# used for Appendix A / results_final.json and record the exact version before
+# archiving this repository. (The XGBoost results in the paper were produced
+# in a separate environment from the one used for pandas/numpy/sklearn above;
+# confirm both environments' versions are recorded for full reproducibility.)
+xgboost>=2.0

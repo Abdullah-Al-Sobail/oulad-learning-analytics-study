@@ -1,0 +1,111 @@
+{
+  "end_of_course_RF": {
+    "accuracy": 0.7081,
+    "precision": 0.6617,
+    "recall": 0.6621,
+    "f1_macro": 0.6592,
+    "roc_auc": 0.9044
+  },
+  "end_of_course_LR": {
+    "accuracy": 0.682,
+    "precision": 0.6404,
+    "recall": 0.598,
+    "f1_macro": 0.6055,
+    "roc_auc": 0.8783
+  },
+  "early_day56_RF": {
+    "accuracy": 0.5933,
+    "precision": 0.5495,
+    "recall": 0.537,
+    "f1_macro": 0.5393,
+    "roc_auc": 0.816
+  },
+  "student_grouped_split_RF": {
+    "accuracy": 0.7073,
+    "precision": 0.6595,
+    "recall": 0.6576,
+    "f1_macro": 0.6553,
+    "roc_auc": 0.9054
+  },
+  "presentation_holdout_RF": {
+    "accuracy": 0.6869,
+    "precision": 0.6468,
+    "recall": 0.6443,
+    "f1_macro": 0.6442,
+    "roc_auc": 0.8936
+  },
+  "presentation_holdout_test_n": 11260,
+  "baseline_majority_class": {
+    "accuracy": 0.3792,
+    "precision": 0.0948,
+    "recall": 0.25,
+    "f1_macro": 0.1375
+  },
+  "baseline_stratified_dummy": {
+    "accuracy": 0.3027,
+    "precision": 0.2536,
+    "recall": 0.2537,
+    "f1_macro": 0.2536
+  },
+  "feature_group_ablation_RF": {
+    "G1_demographics": {
+      "accuracy": 0.3295,
+      "precision": 0.3108,
+      "recall": 0.3211,
+      "f1_macro": 0.3069,
+      "roc_auc": 0.5909
+    },
+    "G2_+enrollment": {
+      "accuracy": 0.3625,
+      "precision": 0.3316,
+      "recall": 0.3403,
+      "f1_macro": 0.3316,
+      "roc_auc": 0.6155
+    },
+    "G3_+engagement": {
+      "accuracy": 0.6257,
+      "precision": 0.5632,
+      "recall": 0.5428,
+      "f1_macro": 0.548,
+      "roc_auc": 0.8392
+    },
+    "G4_+assessment(full)": {
+      "accuracy": 0.7085,
+      "precision": 0.6627,
+      "recall": 0.6643,
+      "f1_macro": 0.6606,
+      "roc_auc": 0.9033
+    }
+  },
+  "bootstrap_CI_RF": {
+    "accuracy_mean": 0.7083,
+    "accuracy_ci": [
+      0.6969,
+      0.719
+    ],
+    "f1_macro_mean": 0.6593,
+    "f1_macro_ci": [
+      0.6455,
+      0.6719
+    ]
+  },
+  "permutation_importance_top10_RF": {
+    "avg_assessment_score": 0.1351,
+    "n_assessments_submitted": 0.1166,
+    "code_module": 0.0346,
+    "avg_days_before_deadline": 0.0143,
+    "total_clicks": 0.0073,
+    "region": 0.0053,
+    "oucontent": 0.0049,
+    "forumng": 0.0046,
+    "highest_education": 0.0045,
+    "subpage": 0.0034
+  },
+  "early_day56_assessment_free_RF": {
+    "accuracy": 0.5338,
+    "precision": 0.4774,
+    "recall": 0.4605,
+    "f1_macro": 0.4637,
+    "roc_auc": 0.7638
+  }
+}
